@@ -1,0 +1,13 @@
+{
+  "name": "v14-terdy-bot",
+  "version": "1.0.0",
+  "description": "V14 Terdy Bot",
+  "main": "index.js",
+  "scripts": {},
+  "author": "tornado",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "mongoose": "^8.4.1"
+  }
+}

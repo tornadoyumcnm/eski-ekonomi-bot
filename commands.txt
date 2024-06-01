@@ -1,0 +1,22 @@
+const Discord = require('discord.js')
+const config = require('../../config');
+
+module.exports = {
+name: '',
+aliases: [''],
+
+async execute(client, message, args) {
+
+await message.channel.send({
+embeds: [
+new Discord.EmbedBuilder()
+.setColor(config.other.renk)
+.setAuthor({ name: `${config.bot.isim} .. Menüsü` })
+.setDescription(``)
+.setFooter({ text: `${message.author.username} tarafından istendi.`, iconURL: message.author.avatarURL({ dynamic: true }) })
+.setTimestamp()
+]
+})
+
+},
+};
